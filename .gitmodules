@@ -1,0 +1,6 @@
+[submodule "bulletin-board-frontend"]
+	path = bulletin-board-frontend
+	url = https://github.com/quantumua/bulletin-board-frontend.git
+[submodule "bulletin-board-backend"]
+	path = bulletin-board-backend
+	url = https://github.com/quantumua/bulletin-board-backend.git
