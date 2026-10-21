@@ -1,0 +1,21 @@
+{
+  "stage": "code-generation",
+  "unit": "u2-frontend-login",
+  "version": 1,
+  "writes": [
+    { "repo": "bulletin-board-frontend", "path": "package.json" },
+    { "repo": "bulletin-board-frontend", "path": "package-lock.json" },
+    { "repo": "bulletin-board-frontend", "path": "vite.config.ts" },
+    { "repo": "bulletin-board-frontend", "path": "README.md" },
+    { "repo": "bulletin-board-frontend", "path": "src/api.ts" },
+    { "repo": "bulletin-board-frontend", "path": "src/api.test.ts" },
+    { "repo": "bulletin-board-frontend", "path": "src/App.tsx" },
+    { "repo": "bulletin-board-frontend", "path": "src/App.test.tsx" },
+    { "repo": "bulletin-board-frontend", "path": "src/AdForm.tsx" },
+    { "repo": "bulletin-board-frontend", "path": "src/AdForm.test.tsx" },
+    { "repo": "bulletin-board-frontend", "path": "src/main.tsx" },
+    { "repo": "bulletin-board-frontend", "path": "src/index.css" },
+    { "repo": "bulletin-board-frontend", "path": "src/test/" },
+    { "repo": "bulletin-board-frontend", "path": "src/auth/" }
+  ]
+}

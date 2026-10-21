@@ -1,0 +1,15 @@
+{
+  "stage": "nfr-requirements",
+  "unit": "u2-frontend-login",
+  "upstream_ids": ["NFR1", "NFR2", "NFR3", "NFR4", "NFR5", "NFR6", "NFR7", "NFR8"],
+  "coverage": [
+    { "id": "NFR1", "status": "N/A", "target": "password hashing is a backend concern owned by U1; the frontend never stores passwords (see NFR2.7)" },
+    { "id": "NFR2", "status": "OK", "target": "NFR2.7, NFR2.8, NFR2.9" },
+    { "id": "NFR3", "status": "OK", "target": "NFR3.11, NFR3.12, NFR3.13" },
+    { "id": "NFR4", "status": "OK", "target": "NFR4.1, NFR4.2, NFR4.3, NFR4.4, NFR4.5" },
+    { "id": "NFR5", "status": "OK", "target": "NFR5.6" },
+    { "id": "NFR6", "status": "N/A", "target": "the frontend has no existing test suite to keep green; the backend regression floor is owned by U1, and the new frontend tests come from Q1" },
+    { "id": "NFR7", "status": "OK", "target": "NFR7.5, NFR7.6" },
+    { "id": "NFR8", "status": "OK", "target": "NFR8.1, NFR8.2" }
+  ]
+}
