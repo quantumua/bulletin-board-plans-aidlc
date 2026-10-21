@@ -1,0 +1,15 @@
+{
+  "stage": "nfr-requirements",
+  "unit": "u1-backend-auth",
+  "upstream_ids": ["NFR1", "NFR2", "NFR3", "NFR4", "NFR5", "NFR6", "NFR7", "NFR8"],
+  "coverage": [
+    { "id": "NFR1", "status": "OK", "target": "NFR1.1, NFR1.2, NFR1.3, NFR1.4, NFR1.5, NFR1.6, NFR1.7, NFR1.8" },
+    { "id": "NFR2", "status": "OK", "target": "NFR2.1, NFR2.2, NFR2.3, NFR2.4, NFR2.5, NFR2.6" },
+    { "id": "NFR3", "status": "OK", "target": "NFR3.1, NFR3.2, NFR3.3, NFR3.4, NFR3.5, NFR3.6, NFR3.7, NFR3.8, NFR3.9, NFR3.10" },
+    { "id": "NFR4", "status": "N/A", "target": "same-origin serving is realised by the frontend unit (U2) through the dev proxy and deployment; the backend keeps its existing CORS configuration unchanged" },
+    { "id": "NFR5", "status": "OK", "target": "NFR5.1, NFR5.2, NFR5.3, NFR5.4, NFR5.5" },
+    { "id": "NFR6", "status": "OK", "target": "NFR6.1, NFR6.2, NFR6.3" },
+    { "id": "NFR7", "status": "OK", "target": "NFR7.1, NFR7.2, NFR7.3, NFR7.4" },
+    { "id": "NFR8", "status": "N/A", "target": "form accessibility is a frontend concern owned by U2" }
+  ]
+}

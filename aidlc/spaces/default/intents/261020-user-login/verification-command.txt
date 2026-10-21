@@ -1,0 +1,1 @@
+set "JAVA_HOME=C:\Users\MTsybulskyi\.jdks\openjdk-26.0.2.1" && bulletin-board-backend\mvnw.cmd -q -f bulletin-board-backend\pom.xml test && npm --prefix bulletin-board-frontend ci && npm --prefix bulletin-board-frontend run lint && npm --prefix bulletin-board-frontend run build
